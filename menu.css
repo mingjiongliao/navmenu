@@ -80,11 +80,15 @@ header{
             /* style the anchors to fill the entire width of the li
             make sure there is padding around your text */
         text-decoration: none;
-        padding: 24%;
+        padding: 0;
+        margin: 0;
         width: 100%;
+        display: block;
+        background-color: #626261;
         }
 
-        .menu-h a:active{
+        .menu-h a:active,
+        .menu-h a:hover{
           background-color: #4CAF50;
           color: blue;
         }
@@ -94,8 +98,6 @@ header{
       padding: 0;
       margin: 0;
       background-color: #AEAEAC;
-
-
 }
     .menu-v li{
         /* style the list items to remove the bullets
@@ -103,7 +105,6 @@ header{
         and take up 100% of the width of the ul */
         list-style-type: none;
         width: 100%;
-        display: block;
         margin: 10px auto;
         text-align: center;
     }
@@ -113,11 +114,11 @@ header{
             /* style the anchors to fill the entire width of the li */
           text-decoration: none;
           width: 100%;
-
         }
+        .menu-h a:active,
         .menu-v a:hover{
           color: green;
-          background-color: #AEAEAC;
+          background-color: transparent;
           display: block;
         }
 main{
